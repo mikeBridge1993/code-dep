@@ -1,0 +1,32 @@
+@import "../../pages/global/variables.scss";
+
+.input {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color-white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 75px;
+  padding: 15px 30px;
+  height: 80px;
+  margin-bottom: -75px;
+  width: 800px;
+
+  @media (max-width: $tablet-breakpoint) {
+    width: 600px;
+  }
+  @media (max-width: $mobile-breakpoint) {
+    width: 300px;
+  }
+}
+
+.input-field {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 0;
+  border-radius: 2px;
+}

@@ -1,0 +1,51 @@
+@import "../../../pages/global/variables.scss";
+
+.repository {
+  &,
+  &--highlighted {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 15px;
+    color: $color-black;
+    transition: background-color 0.1s ease-in;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background: $color-white;
+    min-height: 220px;
+    max-height: 220px;
+    min-width: 100%;
+    border-radius: 7px;
+  }
+
+  &:hover {
+    background-color: $color-highlight;
+  }
+
+  &--highlighted {
+    background-color: $color-highlight;
+  }
+
+  &__image {
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+    border: 1px solid $color-grey;
+  }
+
+  &__description {
+    max-height: 100px;
+    overflow-y: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  &__title {
+    color: purple;
+    font-weight: 700;
+    font-size: 17px;
+    word-break: break-all;
+  }
+}
