@@ -6,4 +6,4 @@
 
 - Go to <http://localhost:3000/> for local version
 
-- Go to <https://code-d.vercel.app/> for deployed version
+- Go to <https://code-dep.vercel.app/> for deployed version
