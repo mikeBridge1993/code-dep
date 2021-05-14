@@ -1,4 +1,4 @@
-### CD app
+### Read me
 
 - Inside the `app` directory, please create a `.env` file with the following 2 entries:
 
